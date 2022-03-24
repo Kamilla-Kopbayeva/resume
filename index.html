@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images and links</title>
+</head>
+<body>
+    <div>
+        <img height="500" src="photo.jpg" alt="Image not found">
+    </div>
+    <h1>Копбаева Камилла</h1>
+    <p>Я учу программирование и делаю убогие сайты</p>
+    <p>Я люблю <strong>булочки и собак</strong></p>
+    <p>Мои хобби:</p>
+    <ul type="square">
+        <li>Печь печеньки</li>
+        <li>Шить одежду</li>
+        <li>Кушать</li>
+        <li>Спать</li>
+    </ul>
+    <p>
+        Мои соцсети (на самом деле просто ссылка на гугл лол):
+    </p>
+    <a target="_blank" href="http://google.com">Google</a>
+    <br>
+    <br>
+    <div class="Tables">
+        <table>
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>LA RUSS</td>
+                <td>Официант</td>
+                <td>2020 Июнь</td>
+            </tr>
+            <tr>
+                <td>Квартира 8</td>
+                <td>Официант</td>
+                <td>2020 Июль-Ноябрь</td>
+            </tr>
+        </table>
+    <br>
+    <br>
+    </div>
+    <div class="form">
+        <form action="#">
+            <div class="input_text"> 
+                <label for="inp_text">Ваше имя:</label>
+                <input type="text" id="inp_text">
+            </div>
+            <br>
+            <div class="input_email">
+                <label for="inp_email">Ваш email:</label>
+                <input type="email" id="inp_email">
+            </div>
+            <br>
+            <div class="input_age">
+                <label for="inp_age">Ваш возраст:</label>
+                <input type="number" id="inp_age" min="0">
+            </div>
+            <br>
+            <div class="input_range">
+                <label for="inp_range">Ваше желание жить:</label>
+                <input type="range" id="inp_range" min="0" max="10" step="2">
+            </div>
+            <br>
+            <div class="input_date">
+                <label for="inp_date">Ваша дата рождения:</label>
+                <input type="date" id="inp_date">
+            </div>
+            <br>
+            <div class="input_colour">
+                <label for="inp_colour">Ваш любимый цвет:</label>
+                <input type="color" id="inp_colour">
+            </div>
+            <br>
+            <div>
+                <label for="sex">Ваш пол:</label>
+                <select id="sex">
+                    <option value="">Мужчина</option>
+                    <option value="">Женщина</option>
+                    <option value="">Другое</option>
+                </select>
+            </div>
+            <br>
+            <div class="message">
+                <label for="message">Ваше сообщение:</label> 
+                <textarea id="message" cols="25" rows="5"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Отправить</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
